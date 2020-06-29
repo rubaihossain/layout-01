@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    background-color: #DFEBF3;
+    background: url(../images/gorod-san-francisko-san-1897.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background-color: white;
+    padding: 18px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 12px;
+    list-style-image: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.head {
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-top: 5px;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+.middel h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 10%;
+}
+
+.middel p {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.btn1 {
+    margin-left: 35%;
+    padding: 15px;
+    color: white;
+    background-color: #4267B2;
+    border: none;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+.btn2 {
+    padding: 15px;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.footer {
+    background-color: white;
+    padding: 15px;
+    margin-top: 11%;
+    font-family: fantasy;
+}
+
+.lefty {
+    float: left;
+    width: 20%;
+}
+
+.righty {
+    float: right;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.righty input {
+    margin-left: 15px;
+    margin-right: 35px;
+    font-size: 18px;
+    width: 250px;
+}
+
+.btn3 {
+    padding: 7px 12px;
+    color: white;
+    background-color: #01a9b4;
+    margin-top: 2%;
+    border: none;
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: arial;
+}
